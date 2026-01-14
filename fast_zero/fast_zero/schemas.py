@@ -7,8 +7,8 @@ class Message(BaseModel):
 
 class UserSchema(BaseModel):
     username: str
-    password: str
     email: EmailStr
+    password: str
 
 
 class UserPublic(BaseModel):
